@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+jekyll && rsync -avz --delete _site/ locust:/var/www/comato.se/public_html/
