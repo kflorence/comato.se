@@ -7,7 +7,7 @@ body {
 }
 
 a {
-	color: #000;
+	color: #333;
 	text-decoration: none;
 }
 
@@ -16,8 +16,8 @@ a:hover {
 }
 
 h1 {
-	border-bottom: #333 1px solid;
-	color: #333;
+	border-bottom: #ddd 1px solid;
+	color: #bbb;
 	font-size: 1.8em;
 	margin-bottom: 10px;
 	padding: 10px;
@@ -25,7 +25,12 @@ h1 {
 }
 
 h1 a {
-	color: #333;
+	color: #bbb;
+}
+
+h1 a:hover {
+	color: #999;
+	text-decoration: none;
 }
 
 h2 {
@@ -34,14 +39,14 @@ h2 {
 	margin-left: 10px;
 }
 
+h2 a {
+	color: #333;
+}
+
 h2 span {
 	color: #666;
 	font-size: 0.8em;
 	margin-left: 10px;
-}
-
-h2 a {
-	color: #666;
 }
 
 #container {
@@ -57,8 +62,11 @@ h2 a {
 }
 
 #content {
-	background-color: #333;
-	color: #fff;
+	-moz-border-radius: 10px;
+	background-color: #f4f4f4;
+	border: #ddd 1px solid;
+	border-radius: 10px;
+	color: #444;
 	font-size: 1.2em;
 	line-height: 120%;
 	margin: 10px 0;
@@ -67,4 +75,14 @@ h2 a {
 
 #content pre {
 	margin: 0 auto;
+}
+
+#toggleComments {
+	margin: 10px;
+}
+
+#comments {
+	border-top: #ddd 1px solid;
+	display: none;
+	padding-top: 10px;
 }
