@@ -5,12 +5,19 @@
 	<meta name="author" content="Kyle Florence" />
 
 	<title>comato.se{% if page.title %}: {{ page.title }}{% endif %}</title>
+
+	<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/atom.xml" />
+
+	<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="/css/base.css" />
 </head>
 <body>
 
-	<h1><a href="/" title="comatose">comatose</a></h1>
+	<div id="container">
+		<h1><a href="/" title="comatose">comatose</a></h1>
 
-	{{ content }}
+		{{ content }}
+	</div>
 
 </body>
 </html>

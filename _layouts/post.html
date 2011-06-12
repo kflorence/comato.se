@@ -2,13 +2,21 @@
 layout: base
 ---
 
-<h2><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h2>
-
 <div id="post">
-	{{ content }}
+	<h2>
+		<a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
+		<span id="date">{{ page.date | date: "%A, %B %d, %Y" }}</span>
+		<span id="tags"></span>
+	</h2>
+
+	<div id="content">
+		{{ content }}
+	</div>
 </div>
 
-<div id="disqus_thread"></div>
-<script type="text/javascript" src="http://disqus.com/forums/comatose/embed.js"></script>
-<noscript><a href="http://comatose.disqus.com/?url=ref">View the discussion thread.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+<div id="comments">
+	<div id="disqus_thread"></div>
+
+	<script type="text/javascript" src="http://disqus.com/forums/comatose/embed.js"></script>
+	<noscript><a href="http://comatose.disqus.com/?url=ref">View the discussion thread.</a></noscript>
+</div>
