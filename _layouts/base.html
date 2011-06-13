@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="Kyle Florence" />
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Kyle Florence" />
 
-	<title>comato.se{% if page.title %}: {{ page.title }}{% endif %}</title>
+    <title>comato.se{% if page.title %}: {{ page.title }}{% endif %}</title>
 
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-	<script type="text/javascript" src="/js/base.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/base.js"></script>
 
-	<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/atom.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/atom.xml" />
 
-	<link rel="stylesheet" type="text/css" href="/css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="/css/base.css" />
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/css/base.css" />
+    <link rel="stylesheet" type="text/css" href="/css/grid/flurid.min.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1><a href="/" title="comatose">comatose</a></h1>
 
-	<div id="container">
-		<h1><a href="/" title="comatose">comatose</a></h1>
+      <div id="content">
+        {{ content }}
+      </div>
 
-		{{ content }}
-	</div>
+      <div id="footer" class="clearfix">
+        <ul>
+          <li><a href="https://github.com/kflorence/comato.se/" title="View Source Code">code</a></li>
+          <li><a href="/atom.xml" title="Atom XML Feed">atom</a></li>
+        </ul>
 
-</body>
+        <p>powered by
+          <a href="http://jekyllrb.com/" title="Jekyll">jekyll</a>,
+          <a href="http://vim.org/" title="Vim">vim</a> and
+          <a href="http://git-scm.com/" title="Git">git</a>
+        </p>
+      </div>
+    </div>
+  </body>
 </html>

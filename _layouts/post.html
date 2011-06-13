@@ -3,24 +3,18 @@ layout: base
 ---
 
 <div id="post">
-	<h2>
-		<a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
-		<span id="date">{{ page.date | date: "%A, %B %d, %Y" }}</span>
-		<span id="tags"></span>
-	</h2>
+  <h2 class="contain">
+    <a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
+    <span id="date">{{ page.date | date: "%A, %B %d, %Y" }}</span>
+  </h2>
 
-	<div id="content">
-		{{ content }}
-	</div>
+  <div id="post-content">
+    {{ content }}
+  </div>
 </div>
 
-<p id="toggleComments">
-	<a href="#comments">Show Comments</a>
-</p>
-
 <div id="comments">
-	<div id="disqus_thread"></div>
-
-	<script type="text/javascript" src="http://disqus.com/forums/comatose/embed.js"></script>
-	<noscript><a href="http://comatose.disqus.com/?url=ref">View the discussion thread.</a></noscript>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript" src="http://disqus.com/forums/comatose/embed.js"></script>
+  <noscript><a href="http://comatose.disqus.com/?url=ref">View the discussion thread.</a></noscript>
 </div>
