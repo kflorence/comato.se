@@ -1,9 +1,9 @@
-h1. comato.se
+# comato.se
 
 My staticly generated dynamic site, powered by [jekyll](http://jekyllrb.com/),
 [disqus](http://disqus.com/), [vim](http://vim.org/) and [git](http://git-scm.com/)!
 
-h2. Gemset issues
+## Gemset issues
 
 Requires rubygems >= 1.3.7 -- this fixes problems on ubuntu:
 
@@ -15,7 +15,7 @@ Requires rubygems >= 1.3.7 -- this fixes problems on ubuntu:
     sudo ln -s /usr/bin/gem1.8 /usr/bin/gem
     sudo gem update --system
 
-h2. License
+## License
 
-Anything in the _posts directory is copyright 2011 Kyle Florence  
+Anything in the \_posts directory is copyright 2011 Kyle Florence  
 Everything else is released under a dual MIT and BSD license.
