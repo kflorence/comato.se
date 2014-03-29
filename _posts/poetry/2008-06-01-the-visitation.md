@@ -38,7 +38,7 @@ title: The Visitation
         And upon my conscious this tale conferred:
     "In days of yore for thee I did ride
     Seduced into battle by thy sweet lies
-        While thou pillaged my land and stole my wife!
+        Whilst thou pillaged thy land and stole thy wife!
         And although in miserable life to thee I did abide
     (In death no more) Hear you me: everything dies!"
 
@@ -46,7 +46,7 @@ title: The Visitation
     Then, amidst this ghoulish nightmare
         Imparted in silent roar
         (Haunting, troubling)
-    Mine eyes opened wide and peeled bare
+    My eyes opened wide and peeled bare
         Devoured this devilish lore
         And in this silent evening of fiendish dreaming
         I awoke to find myself alone once more
@@ -62,8 +62,8 @@ title: The Visitation
     O, how I wished this damp forest the sun to light
         And in this wretched darkness no more to be!
         For the torment contained in that visitation stare
-        (A most ferocious tempest did bore in me)
+        (A most ferocious tempest did bore in thee)
     Of thy life; thy grim spirit of ghostly, pale white!
-        Now mine eyes I shall not close
+        Thine eyes I shall not close
         'Til thy restless soul of torment shall be free
-    (For mine sleep is sure to be a woeful plight!)
+    (For thy sleep is sure to be a woeful plight!)
